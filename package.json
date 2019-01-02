@@ -1,0 +1,10 @@
+{
+  "name": "@hungry/bulma-styled-theme",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "TBD",
+  "sideEffects": false,
+  "scripts": {
+    "archetype:update": "spell new library"
+  }
+}
