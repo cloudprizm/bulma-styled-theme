@@ -18,7 +18,7 @@ export class BasicThemeProvider extends React.Component<{ theme?: BulmaTheme }> 
       <ThemeProvider
         theme={(theme || basicTheme)}
       >
-        {children}
+        {children as React.ReactChild}
       </ThemeProvider>
     )
   }

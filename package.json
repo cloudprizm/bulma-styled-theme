@@ -4,6 +4,21 @@
   "main": "src/index.ts",
   "license": "TBD",
   "sideEffects": false,
+  "keywords": [
+    "bulma",
+    "theme",
+    "sass",
+    "sass variables extraction",
+    "styled-components"
+  ],
+  "dependencies": {
+    "@hungry/bulma-theme": "~0.0.1",
+    "@hungry/bulma-normalize": "~0.0.1"
+  },
+  "peerDependencies": {
+    "styled-components": "^4.1.3",
+    "react": "^16.3.0"
+  },
   "scripts": {
     "archetype:update": "spell new library"
   }
