@@ -4,7 +4,7 @@ import { normalizeCSS } from '@hungry/bulma-normalize'
 import { ThemeProvider } from 'styled-components'
 
 const attachNormalize = normalizeCSS
-
+// TODO export styled function with embedded bulma theme
 export class BasicThemeProvider extends React.Component<{ theme?: BulmaTheme }> {
   public static displayName = 'BulmaThemeProvider'
 
