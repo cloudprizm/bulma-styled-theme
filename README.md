@@ -3,6 +3,8 @@
 
 `styled-components` [theme provider](https://www.styled-components.com/docs/advanced#theming) with embedded `@hungry/bulma-theme`.
 
+[Docs](https://hungry-consulting.github.io/bulma-styled-theme/index.html)
+
 ### Real usage scenario
 * [@hungry/bulma-element](https://github.com/hungry-consulting/bulma-element)
 
