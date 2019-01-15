@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/hungry-consulting/bulma-styled-theme
+	branch = master
+	commit = 411b031d8dbfd5d7243d71e81f194af6c6557847
+	method = merge
+	cmdver = 0.4.0
+	parent = 1270c012e928dbd46febf18608c4cba107d48dd3
