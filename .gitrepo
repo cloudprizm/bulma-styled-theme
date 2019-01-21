@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/hungry-consulting/bulma-styled-theme
 	branch = master
-	commit = 45408a348641fd0aefd320df0015d80ade0e9388
+	commit = d141cea9a516e71cdbd5ac17ebb7720c017ea8eb
 	method = merge
 	cmdver = 0.4.0
-	parent = 149b66fa5ff041d2da80d7727d6fed737513211f
+	parent = b4e020ea3390cebff81990ec2dea199696c5288d
