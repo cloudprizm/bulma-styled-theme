@@ -1,15 +1,21 @@
-import React, { ReactChild, ComponentType } from 'react'
+import React, { FunctionComponent } from 'react'
 import { defaultTheme as basicTheme, BulmaTheme } from '@hungry/bulma-theme'
 import { normalizeCSS } from '@hungry/bulma-normalize'
-import baseStyled, { ThemeProvider as StyledThemeProvider, ThemedStyledInterface } from 'styled-components'
+import baseStyled, {
+  ThemeProvider as StyledThemeProvider,
+  ThemeProviderProps,
+  ThemedStyledInterface
+} from 'styled-components'
 
 // @ts-ignore
 const attachNormalize = normalizeCSS
 
-export const ThemeProvider =
-  ({ theme, children }: { theme?: BulmaTheme, children: ComponentType<unknown> | JSX.Element }) =>
+export type StyledBulmaTheme = ThemeProviderProps<BulmaTheme>
+
+export const ThemeProvider: FunctionComponent<StyledBulmaTheme> =
+  ({ theme, children }) =>
     <StyledThemeProvider theme={(theme || basicTheme)} >
-      {children as ReactChild}
+      {children}
     </StyledThemeProvider>
 
 export class Theme {
