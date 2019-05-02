@@ -73,5 +73,6 @@
     "jest": "^23.6.0",
     "typedoc": "^0.14.0",
     "typescript": "^3.2.2"
-  }
+  },
+  "gitHead": "6b24ba62801e2721446a7d0e5e94cb16cd36eadd"
 }
