@@ -1,6 +1,6 @@
 {
   "name": "@hungry/bulma-styled-theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "license": "MIT",
   "sideEffects": false,
@@ -12,8 +12,8 @@
     "styled-components"
   ],
   "dependencies": {
-    "@hungry/bulma-normalize": "^0.1.0",
-    "@hungry/bulma-theme": "^0.1.0"
+    "@hungry/bulma-normalize": "^0.1.1",
+    "@hungry/bulma-theme": "^0.1.1"
   },
   "peerDependencies": {
     "react": "^16.3.0",
@@ -65,7 +65,7 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
-    "@hungry/babel-preset-cli": "^0.1.3",
+    "@hungry/babel-preset-cli": "^0.1.4",
     "@types/jest": "^23.3.12",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
